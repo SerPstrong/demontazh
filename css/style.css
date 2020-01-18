@@ -136,7 +136,7 @@ h2 span {
 }
 
 .header__time {
-	background: url(/img/header-separator.png) no-repeat;
+	background: url(../img/header-separator.png) no-repeat;
 	float: left;
 	width: 250px;
 	padding: 0 0 0 35px;
@@ -151,7 +151,7 @@ h2 span {
 }
 
 .header__contacts {
-	background: url(/img/header-separator.png) no-repeat;
+	background: url(../img/header-separator.png) no-repeat;
 	float: right;
 	width: 250px;
 	padding: 0 0 0 35px;
@@ -187,7 +187,7 @@ h2 span {
 .icon {
 	display: inline-block;
 	vertical-align: middle;
-	background: url(/img/sprites.png?1);
+	background: url(../img/sprites.png);
 }
 
 .icon-like {
@@ -322,7 +322,7 @@ nav a {
 }
 
 .navbar-nav>li {
-	background: url(/img/menu-separator.png) no-repeat 0 50%;
+	background: url(../img/menu-separator.png) no-repeat 0 50%;
 }
 
 .navbar-nav>li:first-child {
@@ -383,6 +383,7 @@ nav a {
 }
 
 .banner-right {
+  display: none;
 	float: right;
 	width: 420px;
 	margin: 30px 0 0;
@@ -511,7 +512,7 @@ h1 {
 
 .slick-next,
 .slick-prev {
-	background: url(/img/sprites.png) no-repeat;
+	background: url(../img/sprites.png) no-repeat;
 	border: 0;
 	width: 41px;
 	height: 71px;
@@ -617,7 +618,7 @@ h1 {
 }
 
 .how-we-work-list li {
-	background: url(/img/arrow-right.png) no-repeat 95% 50%;
+	background: url(../img/arrow-right.png) no-repeat 95% 50%;
 	float: left;
 	width: 240px;
 	padding: 0 80px 0 0;
@@ -665,7 +666,7 @@ h1 {
 
 .review__comment::before {
 	content: "";
-	background: url(/img/review-angle.png) no-repeat;
+	background: url(../img/review-angle.png) no-repeat;
 	width: 18px;
 	height: 14px;
 	position: absolute;
@@ -720,7 +721,7 @@ footer a:focus {
 }
 
 .footer-top {
-	background: url(/img/footer.png);
+	background: url(../img/footer.png);
 	border-bottom: 1px solid #b8b8b8;
 	height: 26px;
 	position: relative;
@@ -742,7 +743,7 @@ footer a:focus {
 }
 
 .footer-1 {
-	background: url(/img/sprites.png) no-repeat -99px -200px;
+	background: url(../img/sprites.png) no-repeat -99px -200px;
 	width: 121px;
 	height: 30px;
 	position: absolute;
@@ -751,7 +752,7 @@ footer a:focus {
 }
 
 .footer-2 {
-	background: url(/img/sprites.png) no-repeat -99px -237px;
+	background: url(../img/sprites.png) no-repeat -99px -237px;
 	width: 111px;
 	height: 73px;
 	position: absolute;
@@ -760,7 +761,7 @@ footer a:focus {
 }
 
 .footer-3 {
-	background: url(/img/sprites.png) no-repeat -99px -312px;
+	background: url(../img/sprites.png) no-repeat -99px -312px;
 	width: 122px;
 	height: 53px;
 	position: absolute;
@@ -769,7 +770,7 @@ footer a:focus {
 }
 
 .footer-4 {
-	background: url(/img/sprites.png) no-repeat 0 -164px;
+	background: url(../img/sprites.png) no-repeat 0 -164px;
 	width: 91px;
 	height: 194px;
 	position: absolute;
@@ -908,7 +909,7 @@ footer a:focus {
 
 .car__properties {
 	padding: 0;
-	list-style-image: url(/img/car-li.jpg);
+	list-style-image: url(../img/car-li.jpg);
 	margin: 55px 0 10px;
 }
 
@@ -959,7 +960,7 @@ footer a:focus {
 
 .block-contact .container::before {
 	content: "";
-	background: url(/img/mobile.png) no-repeat;
+	background: url(../img/mobile.png) no-repeat;
 	width: 405px;
 	height: 408px;
 	position: absolute;
@@ -1268,7 +1269,7 @@ footer a:focus {
 }
 
 .car-wrap:nth-child(odd) {
-	background: url(/img/car-separator-vertical.png) no-repeat 100% 50%;
+	background: url(../img/car-separator-vertical.png) no-repeat 100% 50%;
 }
 
 .car-left,
