@@ -380,6 +380,7 @@ nav a {
 .banner-left__descr {
 	font-size: 18px;
 	font-weight: 700;
+  margin: 20px 0 0 0;
 }
 
 .banner-right {
@@ -1393,120 +1394,120 @@ footer .container a {
 }
 
 @media (max-width: 1199px) {
-	
+
 	.nav>li>a {
 		padding-left: 29px;
 		padding-right: 29px;
 	}
-	
+
 	.header__links {
 		padding: 0 0 0 25px;
 		width: 160px;
 	}
-	
+
 	.header__time {
 		background: none;
 		padding: 0;
 		width: 210px;
 	}
-	
+
 	.header__contacts {
 		width: 240px;
 	}
-	
+
 	.slick-next {
 		right: -50px;
 	}
-	
+
 	.review__wrap {
 		width: 735px;
 	}
-	
+
 	.column-right {
 		width: 730px;
 	}
 }
 
 @media (max-width: 1075px) {
-	
+
 	.block-slider .container {
 		padding: 0 50px;
 	}
-	
+
 	.slick-slide .card__wrap {
 		width: 95%;
 	}
-	
+
 	.slick-slide .card__title {
 		font-size: 15px;
 	}
-	
+
 }
 
 @media (max-width: 992px) {
-	
+
 	.why-we-list__counter {
 		left: 30%;
 	}
-	
+
 	.nav>li>a {
 		padding-left: 12px;
 		padding-right: 12px;
 		font-size: 15px;
 	}
-	
+
 }
 
 @media (max-width: 991px) {
-	
+
 	.header__time {
 		display: none;
 	}
-	
+
 	.header__contacts__time {
 		display: block;
 	}
-	
+
 	.header__contacts {
 		background: none;
 		padding: 0;
 		width: 220px;
 	}
-	
+
 	.header__links {
 		margin-left: 15px;
 	}
-	
+
 	.banner-right {
 		width: 48%;
 	}
-	
+
 	.banner-left__header {
 		font-size: 29px;
 	}
-	
+
 	.banner-left__list,
 	.banner-left__descr	{
 		font-size: 17px;
 	}
-	
+
 	.order-form {
 		font-size: 16px;
 	}
-	
+
 	.inner {
 		padding-bottom: 382px;
 	}
-	
+
 	footer {
 		height: 302px;
 		margin-top: -302px;
 	}
-	
+
 	.footer-contacts {
 		float: right;
 	}
-	
+
 	.footer-menu {
 		float: right;
 		width: 180px;
@@ -1514,105 +1515,105 @@ footer .container a {
 }
 
 @media (max-width: 768px) {
-	
+
 	.header__logo {
 		float: none;
 		width: 100%;
 	}
-	
+
 	.header__time {
 		display: block;
 		width: 250px;
 	}
-	
+
 	.header__contacts {
 		position: absolute;
 		top: 5px;
 		right: 5px;
 	}
-	
+
 	.header__contacts__time {
 		display: none;
 	}
-	
+
 	.menu-destop {
 		display: none;
 	}
-	
+
 	.menu-mobile {
 		display: block;
 	}
-	
+
 	.nav {
 		margin: 0;
 	}
-	
+
 	.nav>li>a {
 		border-top: 1px solid #ffd9b1;
 		font-size: 16px;
 	}
-	
+
 	.navbar-nav>li {
 		background: none;
 	}
-	
+
 	.banner-left,
 	.banner-right {
 		float: none;
 		width: 100%;
 	}
-	
+
 	.block-slider .container {
 		padding: 0 55px;
 	}
-	
+
 	.slick-prev {
 		left: -52px;
 	}
-	
+
 	.block-contact .container::before {
 		display: none;
 	}
-	
+
 	.inner {
 		padding-bottom: 90px;
 	}
-	
+
 	footer {
 		height: auto;
 		margin: 0;
 	}
-	
+
 	.footer-contacts {
 		margin: 5px 25px 0;
 		text-align: left;
 		margin: 0;
 		float: none;
 	}
-	
+
 	.footer-menu {
 		margin: 10px 0 0 0;
 	}
-	
+
 	.footer-2 {
 		left: 250px;
 	}
-	
+
 	.footer-3 {
 		left: 480px;
 	}
-	
+
 	.phone_mobile {
 		display: inline-block;
 	}
-	
+
 	.phone_desktop {
 		display: none;
 	}
 }
 
 @media (max-width: 575px) {
-	
+
 	.header__logo,
 	.header__links,
 	.header__time,
@@ -1623,38 +1624,38 @@ footer .container a {
 		height: auto;
 		text-align: center;
 	}
-	
+
 	.header__links {
 		display:  none;
 	}
-	
+
 	.header__logo {
 		margin: 20px 0;
 	}
-	
+
 	.header__links {
 		padding: 0;
 	}
-	
+
 	.header__links_link {
 		margin: 0 0 10px;
 	}
-	
+
 	.header__contacts {
 		position: initial;
 		top: auto;
 		right: auto;
 	}
-	
+
 	.slick-slide img {
 		width: 100%;
 	}
-	
+
 	.footer-2,
 	.footer-3 {
 		display: none;
 	}
-	
+
 	.footer-logo,
 	.footer-menu,
 	.footer-contacts,
@@ -1664,56 +1665,56 @@ footer .container a {
 		margin: 0;
 		text-align: center;
 	}
-	
+
 	.block-contact {
 		margin: 0 0 110px;
 	}
-	
+
 	.pricelist .btn {
 		display: none;
 	}
-	
+
 	.block-contact {
 		height: auto;
 	}
-	
+
 	.block-contact-phone-header,
 	.block-contact-email-header {
 		font-size: 20px;
 	}
-	
+
 	.block-contact-phone {
 		font-size: 38px;
 		margin: 0 0 25px;
 	}
-	
+
 	.block-contact-email {
 		font-size: 25px;
 	}
-	
+
 	h1,
 	.header {
 		font-size: 19px;
 	}
-	
+
 	.why-we-list__descr {
 		font-size: 14px;
 	}
-	
+
 	footer a {
 		text-decoration: underline;
 	}
-	
+
 	.footer-menu__list {
 		text-align: left;
 	}
-	
+
 	.footer-menu__list li {
 		width: auto;
 		font-size: 15px;
 		padding: 5px;
 	}
-	
+
 	.car__properties {
 		padding: 0 0 0 15px;
 	}
