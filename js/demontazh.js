@@ -11,7 +11,7 @@
           result = r["result"];
         for (var i = 0; i < result.length; i++) {
           var obj = r["result"][i];
-          output += obj.join("<br/>") + "<br/><hr/>";
+          output += obj.join("") + "<br/><hr/>";
         }
       } catch (e) {
       }
