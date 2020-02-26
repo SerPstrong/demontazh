@@ -1,6 +1,13 @@
 (function () {
   var app = "https://script.google.com/macros/s/AKfycbxOw6kKxWKL5hBucqTtrTPWtPHnYnx8zkvk52ZbgxJnlQb_nio/exec",
-    output = '<table class="table table-striped">',
+    output = '<table class="table table-striped"> <thead>\n' +
+      '          <tr>\n' +
+      '            <th>Название</th>\n' +
+      '            <th>ед. измерения</th>\n' +
+      '            <th>Цена, р.</th>\n' +
+      '            <th></th>\n' +
+      '          </tr>\n' +
+      '          </thead>',
     xhr = new XMLHttpRequest();
   xhr.open('GET', app);
   xhr.onreadystatechange = function() {
