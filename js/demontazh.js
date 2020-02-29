@@ -11,19 +11,21 @@
     xhr = new XMLHttpRequest();
   xhr.open('GET', app);
   xhr.onreadystatechange = function() {
-    if (xhr.readyState !== 4) return;
+    if (xhr.readyState !== 3) return;
     if (xhr.status == 200) {
       try {
         var r = JSON.parse(xhr.responseText),
           result = r["result"];
         console.log(result);
-        for (var i = 0; i < result.length; i++){
+        for (let i = 0; i < result.length; i++){
           output += '<tr>';
 
           for(let j = 0; j < result[i].length; j++ ) {
 
-            output += `<td>${result[i][j]}<td>`
+            output += `<td>${result[i][j]}</td>`
           }
+
+          output += `<td><a href="#" class="btn btn-primary">Заказать</a></td>`;
 
           output += '</tr>';
 
